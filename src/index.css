@@ -1,0 +1,39 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.header{
+    background-image: url(./assets/img/Background.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    min-height: 1000px;
+}
+.online p{
+    color: gray;
+}
+.name{
+    font-size: 14px;
+}
+
+.profile img{
+    width: 40px;
+    margin-right: 10px;
+}
+
+.menu{
+    right: 0;
+}
+.sideBar li{
+    flex-direction: row;
+    display: flex;
+    justify-content: flex-start;
+    font-weight: 600;
+    padding-block: 20px;
+}
+.watch:hover{
+    background-color: gray;
+}
+    
+
+
